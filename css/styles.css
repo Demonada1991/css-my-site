@@ -1,0 +1,197 @@
+body{
+	/*background-color: purple;*/
+	margin: 0px;
+	text-align: center;	/*If we want to CENTER its CHILDREN, this PROPERTY needs to be specified in the PARENT*/
+	/*"text-align" in this case WORKS only in case we have INLINE-BLOCK elements such as IMAGES or FULL-WIDTH BLOCK ELEMENTS like <div>, etc*/
+	/*In case we want to CENTER an ELEMENT which is not FULL WIDTH we use the MARGIN = AUTO for that element (refer <h1> tag below)*/
+	font-family: 'Merriweather', serif;
+	color: #40514E;
+
+}
+
+p{
+	line-height: 2;
+}
+
+.top-container{
+	background-color: #E4F9F5;
+	margin: 0px; 
+	margin-bottom: 20px;
+	padding-top: 50px; 
+	padding-bottom: 0;
+	position: relative;	
+}
+
+.middle-container{
+	background-color: white;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding-top: 50px;
+	/*height: 400px;*/
+}
+
+.bottom-container{
+	background-color: #66CFBF;
+	margin: 0px;
+	/*height: 300px;*/
+	padding: 20px;
+}
+
+h1{
+	font-size: 5.625rem;
+	font-family: 'Sacramento', cursive;
+	color: #66BFBF;
+	margin: 50px auto 0px auto; /*(i.e top=0 right=auto bottom=0 left=auto)*/
+	/*"auto" means AUTOMATICALLY assign a MARGIN acording to the POSITION of other ELEMENTS around it*/
+	width: 100%;	/*In case the element is not FULL-WIDTH*/
+	/*line-height: 2;/*Adds more LINE SPACING*/ 
+}
+
+h2{
+	font-size: 2.5rem;
+	font-family: 'Montserrat', sans-serif;
+	color: #66BFBF;
+	margin-top: 50px;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color: #11999E;
+}
+
+a{
+	color: #1199BE;
+	margin: 5%;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+	color: #4A999E;
+}
+
+.software{
+	color: brown;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+/*Other Alternative
+.top-cloud{
+	display: block;
+	width: 150px;
+	margin: 0 auto 0 auto;
+	position: relative;
+	left: 200px;
+}
+
+.bottom-cloud{
+	display: block;
+	width: 150px;
+	margin: 0 auto 0 auto;
+	position: relative;
+	right: 200px;
+}
+*/
+
+.top-cloud{
+	position: absolute;
+	top: 5px;
+	right: 15%;
+}
+.bottom-cloud{
+	position: absolute;
+	left: 15%;
+	bottom: 305px;
+}
+
+.profile{
+	margin-bottom: 50px;
+}
+
+.skill-row-1, .skill-row-2, .skill-row-3{
+	width: 80%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+
+.skills img{
+	margin: auto 50[x];
+	padding: 20px;
+	width: 30%;
+	position: relative;
+	bottom: 30px;
+}
+
+.skill-row-1, .skill-row-3{
+	clear: right;
+}
+
+.skill-row-2, .contact-me{
+	clear: left;
+}
+
+.profile-img{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.computer-img, .coding-img{
+	margin: 30px;
+	float: left;
+}
+
+.chillies-img{
+	margin: 30px;
+	float: right;
+}
+
+hr{
+	width: 10%;
+	border-width: 5px;
+	height: 1px;
+	clear: both;
+	border-style: dotted none none;
+	color: #EAEAFF;
+}
+
+.contact-me-btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top,  #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top,  #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top,  #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom,  #11CDD4, #11999E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   text-shadow: 1px 1px 10px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact-me-btn:hover {
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+   color: #FFFFFF;
+}
+
+.bottom-container p{
+	color: #EAF6F6;
+}
