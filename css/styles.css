@@ -76,24 +76,6 @@ a:hover{
 	font-weight: normal;
 }
 
-/*Other Alternative
-.top-cloud{
-	display: block;
-	width: 150px;
-	margin: 0 auto 0 auto;
-	position: relative;
-	left: 200px;
-}
-
-.bottom-cloud{
-	display: block;
-	width: 150px;
-	margin: 0 auto 0 auto;
-	position: relative;
-	right: 200px;
-}
-*/
-
 .top-cloud{
 	position: absolute;
 	top: 5px;
@@ -121,7 +103,7 @@ a:hover{
 	padding: 20px;
 	width: 30%;
 	position: relative;
-	bottom: 30px;
+	bottom: 100px;
 }
 
 .skill-row-1, .skill-row-3{
